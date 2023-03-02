@@ -11,34 +11,43 @@ body {
 }
 
 .menu {
-    border-top: 4px solid #2cd6f4;
+    border-top: 4px solid #03ecfc;
+    background-color: rgba(255, 255, 255, 0.03);
+
+    letter-spacing: -0.2px;
 }
 
 .menu ol {
     list-style: none;
     margin: auto;
-    max-width: 300px;
+    max-width: 373px;
 }
 
 .menu li {
     display: inline-block;
-    padding: 10px;
+    padding: 15px;
 }
 
-.menu a {
-    color: black;
-    text-decoration: none;
-
-    font-size: 14pt;
-    font-weight: 600;
-}
-
-.menu a:hover {
-    color: #1c5fe6;
+.menu li:hover {
+    background-color: rgba(255, 255, 255, 0.08);
     transition: 0.3s;
 }
 
-#tudo {
+.menu .ativo {
+    border-bottom: 1px solid #03ecfc;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+
+    font-size: 12pt;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    color: #03ecfc;
+    transition: 0.1s;
 }
 
 .apresentação {
@@ -69,17 +78,18 @@ body {
     line-height: 1.75rem;
 }
 
-.apresentação a {
+.saibamais {
     color: rgb(195 203 201);
 
-    font-size: 1.125rem;
+    font-size: 1.08rem;
     line-height: 1.75rem;
+    letter-spacing: -0.3px;
 
     text-decoration: none;
 }
 
-.apresentação span {
-    color: white;
+.saibamais span {
+    color: #03ecfc;
     
     font-weight: 600;
 }
